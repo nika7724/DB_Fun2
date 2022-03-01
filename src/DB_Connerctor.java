@@ -35,6 +35,7 @@ public class DB_Connerctor {
         }catch(SQLException e) {
             System.out.println("Connection failed");
             e.printStackTrace();
+            System.out.println("Hello World!");
         }
         return connect;
     }
